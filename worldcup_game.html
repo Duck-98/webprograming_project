@@ -26,15 +26,7 @@
 			transform: scale(1.1);
 	       
 		}
-      .vsimg{  
-		    
-			position: fixed;
-	        display: block; margin: 0 auto;
-	        width: 200px; height: 200px;
-			top: 200px; right: 670px;
-			
-
-	    } /* vs이미지 위치 설정 */
+    
 		button{
 			cursor: pointer;
 			position: absolute;
@@ -46,11 +38,6 @@
 	
 </head>
 <body bgcolor="#f5f37c">
-
-	<div>
-	<img class = "vsimg" id = "vs" src="vs.png" >
-    </div>
-  
 	<center>
 	<h1>백석대학교 음식월드컵🏆</h1>
 	
@@ -128,7 +115,6 @@
 						alert("결승전입니다.");
 					}if( images.length == 1){
 						alert("축하드립니다. 음식월드컵 이상형이 선정되었습니다.🏆");
-						document.getElementById("vs").style.display = "none"; // 우승했을 때 vs이미지 가리기
 					}
 					
 					// 현재 토너먼트 알림
