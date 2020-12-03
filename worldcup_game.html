@@ -85,10 +85,11 @@
 			if(round <16)
 			{
 				round++;
-				if(n == 0)
+				if(n == 0){
 					images_select[num_s++] = images[num]; //왼쪽 클릭시
-				else
+				}else{
 					images_select[num_s++] = images[num+1]; //오른쪽 클릭시
+				}
 				num+=2;
 
 				showImg(num);
